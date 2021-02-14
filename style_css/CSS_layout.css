@@ -1,0 +1,80 @@
+
+body {
+  font-family: Times, serif;
+  width: 100%;
+}
+
+.bandeau {
+  background-color: DarkOrange;
+  padding: 14px 20px;
+  text-align: center;
+  }
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: DarkOrange;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  text-transform: uppercase;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: DarkOrange;
+  color: black;
+}
+
+
+/* Footer */
+.footer {
+  padding: 14px 20px;
+  text-align: left;
+  background-color: DarkOrange;
+  color: white;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: black;
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 10px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 10px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+a {
+     text-decoration: none;
+     color: black;
+    }
+a:hover {
+  color: grey;
+}
