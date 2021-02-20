@@ -1,0 +1,232 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+	--orange-color: #f49716;
+	--grey-color: #777;
+	--grey-light-color: #f0f0f0;
+	--main-width: 1170px;
+}
+
+@font-face {
+	font-family: 'new_ciclefina';
+	src: url('new_cicle_fina-webfont.woff2') format('woff2'),
+	url('new_cicle_fina-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	font-family: Cambria, Times New Roman, Times, serif;
+	width: 100%;
+	font-size: 1.125em;
+	line-height: 1.125em;
+
+}
+
+.bandeau {
+	background-color: var(--orange-color);
+	max-width: var(--main-width);
+	text-align: center;
+	margin: auto;
+	padding-top: 2em;
+}
+h2 {
+	font-family: "new_ciclefina", "Arial Narrow Bold", sans-serif;
+	font-weight: 600;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	color: var(--orange-color);
+}
+h3 {	
+	font-family: "new_ciclefina", "Arial Narrow Bold", sans-serif;
+	font-weight: 600;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+.orange {
+	color: var(--orange-color);
+}
+/* Style the top navigation bar */
+.navbar {
+	font-family: "new_ciclefina", "Arial Narrow Bold", sans-serif;
+	margin: auto;
+	max-width: var(--main-width);
+	overflow: hidden;
+	background-color: var(--orange-color);  
+	font-weight: 600;
+}
+
+.navbar ul {
+	padding: 1em 4em;
+}
+.navbar ul li a{
+	padding: 10px;
+}
+/* Style the navigation bar links */
+.navbar a {
+	font-size: 20px;
+	text-transform: uppercase;
+	float: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+	background-color: var(--orange-color);
+	color: black;
+}
+.navbar-content {
+	width: 80%;
+}
+.container {	
+	max-width: var(--main-width);
+	margin: auto;
+	overflow: hidden;
+}
+.content {
+	text-align: left;
+	margin: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.content a {
+	color: var(--orange-color);
+}
+.content a:hover {	
+    background-color: var(--grey-light-color);
+    color: var(--orange-color);
+	text-decoration: underline;
+}
+/* Footer */
+.footer {
+	text-align: center;
+	background-color: var(--orange-color);
+	color: white;
+	margin: auto;
+	width: var(--main-width);
+	min-height: 2em;
+	font-family: "Arial Narrow Bold", sans-serif;
+	font-size: 1.2em;
+	padding: 2em 0;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer a:hover {
+	color: black;
+}
+.aligncenter {
+    text-align: center;
+}
+.img-resp {
+	max-width: 50%;
+}
+img.float-l {
+	float: left;
+	margin: 2em;
+}
+img.float-r {
+	float: right;
+	margin: 2em;
+}
+p {
+	margin: 1em 0;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 10px) {
+	.row {
+		flex-direction: column;
+	}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 10px) {
+	.navbar a {
+		float: none;
+		width: 100%;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: grey;
+}
+
+.flex {
+	display: flex; /* or inline-flex */
+}
+.flex-center {
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+.flex-column {
+	flex-direction: column;
+}
+.flex-1 {
+	flex:1;
+}
+.flex-2 {
+	flex:2;
+}
+.flex-3 {
+	flex:3;
+}
+.flex-4 {
+	flex:4;
+}
+.flex-5 {
+	flex:5;
+}
+.flex-6 {
+	flex:6;
+}
