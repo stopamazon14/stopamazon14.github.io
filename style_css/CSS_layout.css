@@ -234,3 +234,18 @@ a:hover {
 a {
 	overflow-wrap: break-word;
 }
+.italic {
+	font-style: italic;
+	text-align: center;
+}
+.bold {
+	font-weight: bold;
+}
+ul.listDesign li::before {
+	color: var(--orange-color);
+	content: "☛";
+	padding-right: 5px;
+}
+ul.listDesign li {
+	margin: 5px 0;
+}
