@@ -137,8 +137,8 @@ h3 {
 	color: var(--orange-color);
 }
 .content a:hover {	
-    background-color: var(--grey-light-color);
-    color: var(--orange-color);
+	background-color: var(--grey-light-color);
+	color: var(--orange-color);
 	text-decoration: underline;
 }
 /* Footer */
@@ -162,7 +162,7 @@ h3 {
 	color: black;
 }
 .aligncenter {
-    text-align: center;
+	text-align: center;
 }
 .img-resp {
 	max-width: 50%;
@@ -229,4 +229,8 @@ a:hover {
 }
 .flex-6 {
 	flex:6;
+}
+
+a {
+	overflow-wrap: break-word;
 }
