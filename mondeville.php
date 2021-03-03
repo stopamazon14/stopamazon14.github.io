@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stop Amazon 14</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="public/css/style.css" media="screen" />
+  <link href="public/images/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+
+  <?php include ('header.php'); ?>
+
+  <div class="container">
+    <div class="content">    
+      <h2>2019 : Echec d’Amazon à Mondeville</h2>
+      <h3>Pourquoi est-ce que Moult accepte l’implantation d’Amazon que Mondeville et Caen-la-Mer ont refusé ?</h3>
+      <br/>
+      <h3>Pourquoi des élus de droite comme de gauche ont-ils fait front à Caen-la-Mer, et pourquoi ont-ils réussi à empêcher ce que Moult est prêt à accepter sans le moindre débat public ?</h3>
+      <img src='public/images/art-OF-13dec2019.png' class="img-resp float-r"/>
+      <p>En 2019, Amazon avait déjà tenté de s’implanter dans le Calvados, à Mondeville, sur un terrain appartenant à l’entreprise Bosch.</p>
+      <p>C’est en insistant que la Maire de Mondeville, Hélène Burgat, a découvert le pot-au-roses. Car comme bien souvent, Amazon avance masqué.</p>
+      <p class="italic">« Pour des emplois, on ne vend pas son âme, il y a des limites au libéralisme ».</p>
+      <span>A lire dans Maires de France : <a href="https://www.mairesdefrance.com/m/article/?id=555" target="_blank">https://www.mairesdefrance.com/m/article/?id=555</a></span>
+      <p>Mais Mme Burgat s’y est vigoureusement opposée comme on le lit dans son communiqué diffusé sur sa page Facebook : <a href="https://www.facebook.com/helene.mialon.burgat/posts/1550664571739929" target="_blank">https://www.facebook.com/helene.mialon.burgat/posts/1550664571739929</a></p>
+      <p>Le 12 décembre 2019, c’est au tour des élu-e-s de Caen-la-Mer de s’opposer, à l’unanimité, droite et gauche confondues, à ce projet d’installation : </p>
+      <p class="italic">« Si la Communauté urbaine s’emploie chaque jour à accompagner les entreprises de son territoire dans leur développement et à accueillir dans les meilleures conditions possibles les porteurs de projets, les élus de la Communauté urbaine sont en revanche opposés au modèle proposé par Amazon ».</p>
+
+      <p>Très clairement, les motifs de refus sont exposés par les élu-e-s :</p>
+      <ul class="listDesign">
+        <li>Emploi : la destruction des emplois dans le commerce physique traditionnel</li>
+        <li>Impôts : l’utilisation par Amazon d’un « système d’évasion fiscale via un paradis fiscal pour se soustraire à l’impôt engendrant ainsi une concurrence déloyale avec le commerce en ligne hexagonal et les commerces physiques »</li>
+        <li>Environnement : des activités qui impactent fortement l’environnement</li>
+      </ul>
+
+      <p>Alors, nous posons toujours la question :</p> <h3>Comment est-ce que ce qui a été refusé à Mondeville et Caen-la-Mer peut-il être accepté à Moult ?</h3>
+      <p>A part sur les nuisances locales qui seraient déplacées, Amazon à Mondeville ou Moult c’est pareil : destruction d’emplois et de commerces physiques, évasion fiscale, aggravation du dérèglement climatique, pollutions.</p>
+
+      <iframe src="public/images/AMAZON-voeu.pdf" width="100%" height="400px">
+      </iframe>
+      <p><a href="public/images/AMAZON-voeu.pdf"> ॰ Afficher la version PDF</a></p>
+      <br>
+      
+      <h3>A lire :</h3>
+
+      <ul>
+        <li>Liberté du 26/11/2019 : Amazon veut s’implanter dans l’agglo de Caen, les élus s’y opposent !
+          <a href="https://actu.fr/normandie/mondeville_14437/amazon-veut-simplanter-dans-lagglo-caen-elus-sy-opposent_29708123.html" target="_blank">https://actu.fr/normandie/mondeville_14437/amazon-veut-simplanter-dans-lagglo-caen-elus-sy-opposent_29708123.html</a></li>
+          <li>France Bleu : Près de Caen, la ville de Mondeville dit NON à Amazon, l’entreprise répond. <a href="https://www.francebleu.fr/infos/politique/mondeville-la-ville-dit-non-a-amazon-1574782400" target="_blank">https://www.francebleu.fr/infos/politique/mondeville-la-ville-dit-non-a-amazon-1574782400</a></li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <?php include ('footer.php'); ?>
+  
+</body>
+</html>
