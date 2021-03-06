@@ -49,6 +49,7 @@ table {
 	--grey-color: #777;
 	--grey-light-color: #f0f0f0;
 	--main-width: 1170px;
+	--resp-width: 400px;
 }
 
 @font-face {
@@ -72,6 +73,9 @@ body {
 	text-align: center;
 	margin: auto;
 	padding-top: 2em;
+}
+.bandeau img {
+	max-width: 100%;
 }
 h2 {
 	font-family: "new_ciclefina", "Arial Narrow Bold", sans-serif;
@@ -146,21 +150,6 @@ img.float-r {
 p {
 	margin: 1em 0;
 }
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 10px) {
-	.row {
-		flex-direction: column;
-	}
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 10px) {
-	.navbar a {
-		float: none;
-		width: 100%;
-	}
-}
-
 a {
 	text-decoration: none;
 	color: black;
@@ -300,3 +289,35 @@ ul li ul li a {
 	transition: all 0.3s ease;
 }
 /**** FIN Menu & Sous-menu ****/
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+	.row {
+		flex-direction: column;
+	}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+	.navbar a {
+		float: none;
+		width: 100%;
+	}
+	.footer {
+		width: 100%;
+	}
+	.flex {
+		display: block;
+	}
+	nav.primary-navigation ul li ul {
+		left:0;
+		top: 17px;
+	}
+	nav.primary-navigation ul li {
+		width: 100%;
+	}
+	nav.primary-navigation ul li:hover > ul, nav.primary-navigation ul li ul:hover {
+		z-index: 999;
+	}
+}
