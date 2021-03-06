@@ -320,4 +320,9 @@ ul li ul li a {
 	nav.primary-navigation ul li:hover > ul, nav.primary-navigation ul li ul:hover {
 		z-index: 999;
 	}
+	img.float-r, img.float-l, .img-resp {
+		margin: 0;
+		width: 100%;
+		max-width: 100%;
+	}
 }
