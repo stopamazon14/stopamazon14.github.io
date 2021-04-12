@@ -147,11 +147,11 @@ h3 {
 }
 img.float-l {
 	float: left;
-	margin: 0 2em;
+	margin-right: 1em;
 }
 img.float-r {
 	float: right;
-	margin: 0 2em;
+	margin-left: 1em;
 }
 p {
 	margin: 1em 0;
