@@ -51,6 +51,11 @@
 			<p>contact stopamazon14@riseup.net</p>
 			<p>06.85.73.26.41</p>
 			<br/>
+			<p>Cliquez sur la photo pour afficher les photos suivantes</p>
+			<p>
+			 <div align="center" id="diapo" onclick="diapo()"><img src='public/images/diapo1.png' width='70%'  alt='Photos stopamazon 14'></div>
+			</p>
+			<br/>
 			<hr/>
 
 			<h2>StopAmazon14 : rassemblement le 17 avril à la Mairie de Moult</h2>
@@ -94,6 +99,29 @@
 		<p> 2021 - Un site créé par <a href="https://www.facebook.com/14attac" target="_blank">Attac14 (FB)</a>, <a href="https://www.facebook.com/xrcaen" target="_blank">Exctinction Rebellion Caen (FB)</a>, <a href="https://www.facebook.com/stopamazon14/" target="_blank">FB stop amazon 14</a></p>
 	</div>
 
+	
+	
+	
+<script>
+// change photo on move of mouse
+function diapo(){
+  var pics = Array(
+                "<img src='public/images/diapo2.png' width='70%' alt='Photos stopamazon 14'>",
+	  	"<img src='public/images/diapo3.png' width='70%' alt='Photos stopamazon 14'>",
+	  	"<img src='public/images/diapo4.png' width='70%' alt='Photos stopamazon 14'>",
+	  	"<img src='public/images/diapo5.png' width='70%' alt='Photos stopamazon 14'>",
+	  	"<img src='public/images/diapo6.png' width='70%' alt='Photos stopamazon 14'>",
+                )
+
+  var randomIndex = Math.floor(Math.random()*pics.length);
+  var pic = pics[randomIndex];
+  document.getElementById('diapo').innerHTML = pic;
+       }
+</script>	
+	
+	
+	
+	
 </body>
 </html>
 
