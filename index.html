@@ -104,7 +104,7 @@
 	
 <script>
 	
-var slideIndex = 1;	
+let slideIndex = 0;	
 	
 // change photo on click of mouse
 function diapo(){
@@ -113,12 +113,16 @@ function diapo(){
 	  	"<img src='public/images/diapo3.JPG' width='70%' alt='Photos stopamazon 14'>",
 	  	"<img src='public/images/diapo4.JPG' width='70%' alt='Photos stopamazon 14'>",
                 )
-  if (slideIndex > slides.length) {slideIndex=1};
-  slideIndex += 1
+  if (slideIndex >= pics.length) {
+	      slideIndex = 0;
+  }
+  var pic = pics[slideIndex];
+  document.getElementById('diapo').innerHTML = pic;
+  slideIndex += 1;
   // var randomIndex = Math.floor(Math.random()*pics.length);
   // var pic = pics[randomIndex];
-  var pic = pics[slideIndex]; 
-  document.getElementById('diapo').innerHTML = pic;
+}
+
 		
 </script>	
 	
