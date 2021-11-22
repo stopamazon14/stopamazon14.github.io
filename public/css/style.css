@@ -315,16 +315,17 @@ ul li ul li a {
 }
 @keyframes fondu{
     0%{background-image: url("../images/action1.jpg");}
-    10%{background-image: url("../images/action2.jpg");}
-    20%{background-image: url("../images/action3.jpg");}
-    30%{background-image: url("../images/action4.jpg");}
-    40%{background-image: url("../images/action5.jpg");}
-    50%{background-image: url("../images/action6.jpg");}
-    60%{background-image: url("../images/action7.jpg");}
-    70%{background-image: url("../images/action8.jpg");}
-    80%{background-image: url("../images/action9.jpg");}
-    90%{background-image: url("../images/action10.jpg");}
-    100%{background-image: url("../images/action11.jpg");}
+    9%{background-image: url("../images/action2.jpg");}
+    18%{background-image: url("../images/action3.jpg");}
+    27%{background-image: url("../images/action4.jpg");}
+    36%{background-image: url("../images/action5.jpg");}
+    45%{background-image: url("../images/action6.jpg");}
+    54%{background-image: url("../images/action7.jpg");}
+    63%{background-image: url("../images/action8.jpg");}
+    72%{background-image: url("../images/action9.jpg");}
+    81%{background-image: url("../images/action10.jpg");}
+    90%{background-image: url("../images/action11.jpg");}
+    100%{background-image: url("../images/action1.jpg");}
 }
 
 
