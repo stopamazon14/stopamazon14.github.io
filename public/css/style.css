@@ -299,6 +299,34 @@ ul li ul li a {
 }
 /**** FIN Menu & Sous-menu ****/
 
+/**** DIAPORAMA ****/
+
+.diaporama{
+    width: 1000px;
+    height: 750px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-size: contain;
+    animation: fondu 33s ease-in-out infinite both;
+}
+.conteneur{
+    max-width: 1000px;
+    margin: 50px auto;
+}
+@keyframes fondu{
+    0%{background-image: url("../images/action1.jpg");}
+    10%{background-image: url("../images/action2.jpg");}
+    20%{background-image: url("../images/action3.jpg");}
+    30%{background-image: url("../images/action4.jpg");}
+    40%{background-image: url("../images/action5.jpg");}
+    50%{background-image: url("../images/action6.jpg");}
+    60%{background-image: url("../images/action7.jpg");}
+    70%{background-image: url("../images/action8.jpg");}
+    80%{background-image: url("../images/action9.jpg");}
+    90%{background-image: url("../images/action10.jpg");}
+    100%{background-image: url("../images/action11.jpg");}
+}
+
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
